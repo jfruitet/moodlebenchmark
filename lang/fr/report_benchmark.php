@@ -9,7 +9,18 @@ $string['modulenameplural'] = 'Moodle Benchmarks';
 $string['modulename'] = 'Moodle Benchmark';
 $string['adminreport'] = 'Benchmark du système';
 $string['release'] = 'N° ';
-$string['version'] ='Version : ';
+$string['version'] ='Version : {$a}';
+
+$string['info'] = '<p>Ce benchmark doit avoir une durée inférieur à 1 minute et s\'annule à 2 minutes.
+<br />Il va démarrer automatiquement dans <span id="countdown">10</span> secondes ou cliquer sur &laquo;Lancer le test&raquo;</p>
+<p>Merci de patienter jusqu'à l'affichage des résultats.</p>  ';
+$string['start'] = 'Lancer le test';
+$string['redo'] = 'Refaire le test';
+$string['scoremsg'] = 'Score du benchmark : <span class="text-success">{$a} points</span>';
+$string['resultat'] = 'Résultats des tests';
+$string['score'] = 'Score';
+$string['points'] = ' {$a} points';
+$string['imprimer'] = 'Imprimer';
 
 // Chargement de Moodle
 $string['cloadname'] =  'Chargement de Moodle';

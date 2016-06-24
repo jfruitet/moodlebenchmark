@@ -11,6 +11,19 @@ $string['adminreport'] = 'System Benchmark';
 $string['release'] = 'N° ';
 $string['version'] ='Version : ';
 
+$string['info'] = '<p>This benchmark has to last no more than 1 minute; it stops à 2 minutes.
+<br />If you d\'nt click on &laquo;Startthe test&raquo; it will start in <span id="countdown">10</span> seconds.</p>
+<p>Thanks to wait until results show on.</p>  ';
+$string['start'] = 'Start the test';
+$string['redo'] = 'Redo the test';
+$string['scoremsg'] = 'Bechmark Score: <span class="text-success">{$a} points</span>';
+$string['resultat'] = 'Tests résults';
+$string['score'] = 'Score';
+$string['points'] = ' {$a} points';
+$string['imprimer'] = 'Print';
+
+
+
 // Chargement de Moodle
 $string['cloadname'] =  'Moodle loading time';
 $string['cloadmoreinfo'] = 'Run the configuration file &laquo;config.php&raquo;';
