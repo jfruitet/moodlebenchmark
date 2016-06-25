@@ -14,7 +14,9 @@ This a fork by JF of the Original code available at [https://github.com/mikasmar
 ### Release notes
 
 
-* 2016-06-24, version 0.0.1b (alpha): all stuff is now in ./moodle/report/benchmark 
+* 2016-06-25, version 0.0.1b (alpha): all stuff is now in ./moodle/report/benchmark 
+
+***N.B.***: *Language integration is achieved*.
 
 * 2016-06-24, version 0.0.1a (alpha): Preview version - Alpha
 
@@ -56,7 +58,6 @@ Logez-vous comme  Administrateur, allez à "Administration du site> Rapports> Be
 
 ### Roadmap
 
-- Language integration is not finished. I can't get the strings in the lib.php script. If anybody may help!
 - Add more test
 - Add sharing score on a global website
 - Add more language
