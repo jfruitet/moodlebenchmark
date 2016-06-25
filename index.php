@@ -2,7 +2,7 @@
 // d'après ./report/question/
     require_once(dirname(__FILE__).'/../../config.php');
     require_once($CFG->libdir.'/adminlib.php');
-    require_once($CFG->dirroot.'/report/benchmark/lib.php');
+    require_once($CFG->dirroot.'/report/benchmark/lib/lib.php');
     require_once($CFG->dirroot.'/report/benchmark/version.php');
 
 /// Get all required strings

@@ -15,11 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Settings for the backups report
+ * Settings for the benchmark report
  *
  * @package    report
- * @subpackage referentiel
- * @copyright  2007 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
+ * @subpackage benchmark
+ * @copyright  Mickaël Pannequin, mickael.pannequin@smartcanal.com
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -4,12 +4,11 @@
 
 Performs various tests to determine the quality of the Moodle platform
 
+Tested with Moodle 2.9, 3.1
+
 ## Availability
 
-https://github.com/jfruitet/moodlebenchmark :: **report-version branch**
-
-This a fork by JF of the Original code available at [https://github.com/mikasmart/moodlebenchmark](https://github.com/mikasmart/moodlebenchmark).
-
+Code available at [https://github.com/mikasmart/moodlebenchmark](https://github.com/mikasmart/moodlebenchmark).
 
 ### Release notes
 
@@ -21,25 +20,24 @@ This a fork by JF of the Original code available at [https://github.com/mikasmar
 * 2016-06-24, version 0.0.1a (alpha): Preview version - Alpha
 
 ## Installation
-
 ### English
-* Clone or download the ***report-version*** *branch* directly on your  ./moodle/report directory server
+* Clone or download the ***master*** *branch* directly to your  ./moodle/report directory server
 
 * Rename it to benchmark
 
-* Logon as admin on your Moodle server 
+* Logon as admin on your Moodle server
 
 * Go to "Site Administration> Notification"
 
-* Install new plugin as usual
+* Install the new plugin as usual
 
 ### French
 
-* Cloner ou télécharger  *la branche* ***report-version*** directement vers le dossier ./moodle/report de votre serveur
+* Cloner ou télécharger  *la branche* ***master*** directement vers le dossier ./moodle/report de votre serveur
 
-* Renommez-le benchmark 
+* Renommez-le benchmark
 
-* Logez-vous comme administrateur  
+* Logez-vous comme administrateur
 
 * Allez à  "Administration du site> Notification"
 
@@ -53,8 +51,8 @@ Logez-vous comme  Administrateur, allez à "Administration du site> Rapports> Be
 
 ## Requirement
 
-- Be an admin or a manager
-- 1 minute (Time to prepare a coffee / tea during the test)
+- Moodle installed
+- 1 minute (time to prepare a coffee / tea during the test)
 
 ### Roadmap
 

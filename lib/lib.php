@@ -16,7 +16,7 @@
 // TODO : Finir la prise en charge EN
 
 
-require_once(dirname(__FILE__).'/../../config.php');
+require_once(dirname(__FILE__).'/../../../config.php');
 require_once($CFG->dirroot.'/report/benchmark/version.php');
 
 set_time_limit(120);
