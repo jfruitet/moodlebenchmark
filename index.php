@@ -29,17 +29,16 @@
     // Version du module
     $s_version='';
 
-	if (!empty($plugin->release)) {
-        $s_version.= $plugin->release;
-   	}
-
+	if (!empty($plugin->release)){
+		$s_version.= ' <b>'.$plugin->release."</b>\n";
+	}
 	if (!empty($plugin->version)){
 		// 2009042600;  // The current module version (Date: YYYYMMDDXX)
-		$s_version.= ' ('.get_string('release','report_benchmark').' '.$plugin->version.')'."\n";
+		$s_version.= ' (<i>'.get_string('moodleversion','report_benchmark',$plugin->version)."</i>)\n";
 	}
 
 	if ($s_version!=''){
-	   $msg.= get_string('version', 'report_benchmark').'<br /><i>'.$s_version.'</i>'."\n";
+	   $msg.= get_string('version', 'report_benchmark',$s_version)."\n";
 	}
 
 

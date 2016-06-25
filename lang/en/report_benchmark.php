@@ -8,8 +8,9 @@ $string['pluginname'] = 'Moodle  Benchmark';
 $string['modulenameplural'] = 'Moodle Benchmarks';
 $string['modulename'] = 'Moodle Benchmark';
 $string['adminreport'] = 'System Benchmark';
-$string['release'] = 'N° ';
-$string['version'] ='Version : ';
+$string['release'] = 'User friendly version: {$a} ';
+$string['moodleversion'] ='Moodle distribution number: {$a}';
+$string['version'] ='Version {$a}';
 
 $string['titre'] = 'BenchMark Moodle version <small>{$a}</small>';
 $string['toggle'] = 'Toggle navigation';
